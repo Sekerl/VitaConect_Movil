@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.example.vitaconect_movil.ui.inicio.InicioFragment"
+        android:label=""
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_gestionproveedores"
+        android:name="com.example.vitaconect_movil.ui.gestionproveedores.GestionproveedoresFragment"
+        android:label=""
+        tools:layout="@layout/fragment_gestionproveedores"
+        />
+    <fragment
+        android:id="@+id/nav_gestionlaboratorios"
+        android:name="com.example.vitaconect_movil.ui.gestionlaboratorios.GestionlaboratoriosFragment"
+        android:label=""
+        tools:layout="@layout/fragment_gestionlaboratorios" />
+    <fragment
+        android:id="@+id/nav_gestiontiproductos"
+        android:name="com.example.vitaconect_movil.ui.gestiontiproductos.GestiontiproductosFragment"
+        android:label=""
+        tools:layout="@layout/fragment_gestiontiproductos" />
+    <fragment
+        android:id="@+id/nav_gestionpresentaciones"
+        android:name="com.example.vitaconect_movil.ui.gestionpresentaciones.GestionpresentacionesFragment"
+        android:label=""
+        tools:layout="@layout/fragment_gestionpresentaciones" />
+    <fragment
+        android:id="@+id/nav_gestionproductos"
+        android:name="com.example.vitaconect_movil.ui.gestionproductos.GestionproductosFragment"
+        android:label=""
+        tools:layout="@layout/fragment_gestionproductos" />
+
+    <fragment
+        android:id="@+id/nav_monitoreolotes"
+        android:name="com.example.vitaconect_movil.ui.monitoreolotes.MonitoreolotesFragment"
+        android:label=""
+        tools:layout="@layout/fragment_monitoreolotes" />
+
+    <fragment
+        android:id="@+id/nav_gestiondetallesventas"
+        android:name="com.example.vitaconect_movil.ui.gestiondetallesventas.GestiondetallesventasFragment"
+        android:label=""
+        tools:layout="@layout/fragment_gestiondetallesventas" />
+</navigation>

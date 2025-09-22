@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/inicio"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_gestionproveedores"
+            android:icon="@drawable/proveedores"
+            android:title="Gestión Proveedores" />
+        <item
+            android:id="@+id/nav_gestionlaboratorios"
+            android:icon="@drawable/laboratorio"
+            android:title="Gestión Laboratorios" />
+        <item
+            android:id="@+id/nav_gestiontiproductos"
+            android:icon="@drawable/tiproducto"
+            android:title="Gestión Tipo Productos" />
+        <item
+            android:id="@+id/nav_gestionpresentaciones"
+            android:icon="@drawable/presentacion"
+            android:title="Gestión Presentaciones" />
+        <item
+            android:id="@+id/nav_gestionproductos"
+            android:icon="@drawable/medicamentos"
+            android:title="Gestión Productos" />
+        <item
+            android:id="@+id/nav_monitoreolotes"
+            android:icon="@drawable/lote"
+            android:title="Monitoreo Lotes" />
+        <item
+            android:id="@+id/nav_gestiondetallesventas"
+            android:icon="@drawable/detalle_compra"
+            android:title="Gestion Detalles Ventas" />
+        <item
+            android:id="@+id/cerrar_sesion"
+            android:icon="@drawable/cerrar_sesion"
+            android:title="Cerrar Sesión"
+            />
+    </group>
+</menu>
